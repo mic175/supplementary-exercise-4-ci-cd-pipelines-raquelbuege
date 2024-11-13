@@ -59,7 +59,7 @@ jobs:
 
     needs: [maven_test]  # Enforces that maven_test runs first
 
-    needs: [maven_test]
+  
     runs-on: ubuntu-latest
 
     permissions:
